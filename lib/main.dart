@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'screens/splash_screen.dart'; 
 
 void main() {
-  runApp(const MyApp());
+  runApp(const LakResetApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+class LakResetApp extends StatelessWidget {
+  const LakResetApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  HomeScreen(),
+      title: 'LAKResèt',
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+        useMaterial3: true,
+      ),
+      
+      home: const SplashScreen(), 
     );
   }
 }
-
