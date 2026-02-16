@@ -60,7 +60,6 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
       );
 
-      // Si on est dans l'écran des favoris et qu'on retire le favori, on revient en arrière
       if (widget.isFromFavorites && !isFavorite) {
         Navigator.pop(context, true);
       }
