@@ -24,7 +24,7 @@
 **Non/Platfòm Zouti a:** ChatGPT  
 *(ekz., ChatGPT, Grammarly, GitHub Copilot, Rechèch Google, elatriyeee.)*
 
-**Dat & Lè Itilizasyon an:** Samedi 14 fevrier 2026 / Mpa sonje le a egzat  ak Lundi 16 fevrier 2026  anviwon 5h yo.
+**Dat & Lè Itilizasyon an:** Samedi 14 fevrier 2026 / Mpa sonje le a egzat.
 
 **Objektif Itilizasyon an:** deboge kod ak asistans rechech poum te byen konprann   
 *(Ekz., Deboge kòd, Asistans rechèch, elatriyee.)*
@@ -53,7 +53,7 @@ class DetailScreen extends StatefulWidget {
 }
 
 class _DetailScreenState extends State<DetailScreen> {
-  bool isFavorite = false; // ❤️ eta bouton an
+  bool isFavorite = false; 
   
 
   @override
@@ -235,50 +235,6 @@ d Detach (terminate "flutter run" but leave application running).
 c Clear the screen
 q Quit (terminate the application on the device).
 
-A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:55935/1GtDd72ANn8=/
-The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at:
-http://127.0.0.1:55935/1GtDd72ANn8=/devtools/?uri=ws://127.0.0.1:55935/1GtDd72ANn8=/ws
-I/Choreographer(11701): Skipped 201 frames!  The application may be doing too much work on its main thread.
-D/WindowOnBackDispatcher(11701): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@319975a
-D/ProfileInstaller(11701): Installing profile for com.example.lakreset
-I/xample.lakreset(11701): Compiler allocated 5082KB to compile void android.view.ViewRootImpl.performTraversals()
-I/WindowExtensionsImpl(11701): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
-D/VRI[MainActivity](11701): WindowInsets changed: 1080x2424 statusBars:[0,142,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,174,0,84]
-D/FlutterRenderer(11701): Width is zero. 0,0
-D/FlutterRenderer(11701): Width is zero. 0,0
-D/FlutterJNI(11701): Sending viewport metrics to the engine.
-I/Choreographer(11701): Skipped 212 frames!  The application may be doing too much work on its main thread.
-D/FlutterJNI(11701): Sending viewport metrics to the engine.
-I/HWUI    (11701): Davey! duration=3681ms; Flags=1, FrameTimelineVsyncId=87831, IntendedVsync=11406700218670, Vsync=11410233551862, InputEventId=0, HandleInputStart=11410249815700, AnimationStart=11410249854100, PerformTraversalsStart=11410250383400, DrawStart=11410275730000, FrameDeadline=11406716885336, FrameStartTime=11410249335100, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=11410279193100, SyncStart=11410290012300, IssueDrawCommandsStart=11410290462900, SwapBuffers=11410338088000, FrameCompleted=11410393019700, DequeueBufferDuration=37192200, QueueBufferDuration=1755700, GpuCompleted=11410368577700, SwapBuffersCompleted=11410393019700, DisplayPresentTime=0, CommandSubmissionCompleted=11410338088000,
-D/WindowOnBackDispatcher(11701): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@c1640e0
-D/WindowLayoutComponentImpl(11701): Register WindowLayoutInfoListener on Context=com.example.lakreset.MainActivity@d0ab2dc, of which baseContext=android.app.ContextImpl@9c3725e
-D/WindowOnBackDispatcher(11701): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@319975a
-D/FlutterJNI(11701): Sending viewport metrics to the engine.
-D/InsetsController(11701): hide(ime())
-I/ImeTracker(11701): com.example.lakreset:1212d410: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-W/xample.lakreset(11701): userfaultfd: MOVE ioctl seems unsupported: Connection timed out
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
-I/flutter (11701): Tapped on recipe: Apple Pie
 
 Application finished.
 PS C:\Users\Lea\Laktiv> flutter run
@@ -309,18 +265,6 @@ Running Gradle task 'assembleDebug'...                             10.6s
 Error: Gradle task assembleDebug failed with exit code 1
 poukisa lem fe flutter run li banm sa
 
-
-
-
-
-
-
-
-
-
-
-16 fevrier 2026:
-    mwen gen yon aplikasyon flutter mwen itilize API Service, modelizasyon, shared_preferences pour backend epi yon ensemble widget flutter pou UI/UX Aplikasyon an gen 5 ekran ladan:  Splash, Akey, Detay, Favori, Apwopo. koman m ka prepare rezime teknik app sa Rezime teknik.
 
 
 
@@ -574,147 +518,6 @@ flutter run
 Li ap mache.
 
 Si li toujou pa mache, voye m kòd onTap ou a egzakteman jan li ye la.
-
-
-
-
-
-16 fevrier 2026:
-📱 REZIME TEKNIK APLIKASYON AN
-1️⃣ Entwodiksyon
-
-Aplikasyon an devlope ak Flutter (Dart) kòm teknoloji prensipal pou devlopman frontend (UI/UX).
-Li itilize yon API Service pou jesyon done ekstèn, ansanm ak SharedPreferences pou estokaj done lokal sou aparèy itilizatè a.
-
-Aplikasyon an gen yon achitekti ki separe lojik biznis, modèl done, ak koòdone itilizatè a pou fasilite antretyen ak evolisyon pwojè a.
-
-2️⃣ Achitekti Aplikasyon an
-
-Aplikasyon an baze sou yon estrikti modilè ki gen:
-
-📂 Models (Modelizasyon)
-Reprezante estrikti done yo (mapping JSON → Objects Dart).
-
-🌐 API Service
-Responsab pou:
-
-Fè requèt HTTP (GET, POST, elatriye)
-
-Resevwa done JSON
-
-Konvèti done yo an objè model
-
-💾 SharedPreferences (Backend Lokal)
-Itilize pou:
-
-Sere lis favori yo
-
-Kenbe ti done pèmanan lokalman
-
-🎨 Flutter Widgets (UI/UX)
-Konpozan vizyèl yo konstwi ak:
-
-StatelessWidget
-
-StatefulWidget
-
-Custom widgets pou re-utilizasyon
-
-3️⃣ Deskripsyon Ekran yo
-
-Aplikasyon an gen 5 ekran prensipal:
-
-🔹 1. Splash Screen
-
-Premye ekran ki parèt lè aplikasyon an lanse.
-
-Montre logo oswa non aplikasyon an.
-
-Fè inisyalizasyon done yo.
-
-Redirije otomatikman sou ekran Akey la.
-
-🔹 2. Akey (Home Screen)
-
-Ekran prensipal aplikasyon an.
-
-Montre lis done ki sòti nan API a.
-
-Pèmèt itilizatè a:
-
-Klike sou yon eleman pou wè detay
-
-Ajoute eleman nan favori
-
-🔹 3. Detay Screen
-
-Montre enfòmasyon detaye sou yon eleman chwazi.
-
-Affiche done ki sòti nan model yo.
-
-Pèmèt itilizatè a:
-
-Ajoute/retire nan Favori
-
-🔹 4. Favori Screen
-
-Montre lis eleman ki estoke nan SharedPreferences.
-
-Done yo estoke lokalman sou aparèy la.
-
-Pèmèt itilizatè a jere lis favori yo.
-
-🔹 5. Apwopo (About Screen)
-
-Bay enfòmasyon sou aplikasyon an:
-
-Objektif
-
-Devlopè
-
-Vèsyon
-
-4️⃣ Jesyon Navigasyon
-
-Navigasyon ant ekran yo fèt ak:
-
-Navigator.push()
-
-Navigator.pop()
-
-Oswa Route System Flutter
-
-5️⃣ Teknoloji Itilize
-
-Flutter SDK
-
-Dart
-
-HTTP package (pou API)
-
-SharedPreferences
-
-Material Design Widgets
-
-6️⃣ Avantaj Teknik
-
-✔️ Achitekti klè ak modilè
-✔️ Separasyon lojik ak UI
-✔️ Estokaj done lokal efikas
-✔️ Reutilizasyon widgets
-✔️ Fasil pou fè mizajou ak antretyen
-
-Si ou vle, mwen ka:
-
-✍🏽 Fè li pi akademik pou memwa/final year project
-
-📊 Fè li pi kout pou prezantasyon PowerPoint
-
-📄 Mete li nan fòm dokiman Word
-
-🧩 Ajoute dyagram achitekti teknik
-
-Di m ki fòm ou bezwen 👨🏽‍💻
 
 
 
