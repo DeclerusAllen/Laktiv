@@ -1,21 +1,45 @@
-# lakreset
+# LAKResèt
+Se yon app kap ede prepare manje ak bay bon jan resèt.
 
-A new Flutter project.
+## ABSTRACT
 
-## Getting Started
+**Non aplikasyon an:** LAKResèt  
+**Kategori:** Manje  
+**Objektif aplikasyon an:**  
+LAKResèt se yon aplikasyon mobil ki pèmèt itilizatè yo chèche diferan resèt.
 
-This project is a starting point for a Flutter application.
+**Ki pwoblèm li rezoud:**  
+Aplikasyon LAKResèt pèmèt itilizatè yo jwenn bon jan resèt ak bon jan enstriksyon pou yon meyè kizin.
 
-A few resources to get you started if this is your first Flutter project:
+**Fonksyonalite prensipal yo:**
+- Jwenn lis resèt.
+- Pèmèt itilizatè a gen posiblite pou li repwodwi resèt.
+- Pèmèt itilizatè a ajoute yon resèt nan favori e kap tou disponib an lokal.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Otè ak Wòl:**
+| Non                        | Wòl                        |
+|---------------------------|----------------------------|
+| Allen DECLERUS            | Data layer                 |
+| Jean Rood Kerry LUCIEN    | UI/UX + Navigasyon         |
+| Leila JOAZILE             | UI/UX + Navigasyon         |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Rezime teknik:**
+- Aplikasyon an gen 5 ekran ladan: ekran dinamik (Splash, Akèy, Detay, Favori) epi Apwopo ki se yon ekran statik.
+- Premye ekran ki parèt la se splash la, aprè l dirije w nan akèy la. Si w klike sou yon resèt, lap pèmèt ou wè detay sou resèt sa. Si w ajoute yon resèt nan favori, lap tou disponib san koneksyon.
 
-# Laktiv
-Se yon app kap gen pou ede prepare manje nan bay bon jan resèt
+- Nou itilize yon API eksten (yon fake API pou moman, dummyjson) pou done resèt yo, done sa yo ki modelize nan models.dart.
+
+- Tout resèt yo afiche nan ekran akèy la, men ou ka ajoute yo nan Favori kote nou itilize shared_preferences (lojik yo defini nan favorites_services) pou ajoute done ki nan favori yo an lokal.
+- UI/UX: itilize statefulwidget, statelesswidget, scaffold, Image.network (pou afiche imaj resèt yo).
+  
+## Kek package nou itilize
+### http, shared_preferences, flutter_launcher_icons.
+
+
+
+
+
+
+
 ## Videyo a ak fichye APK
 ### [Google Drive](https://drive.google.com/drive/folders/1cnbakFRDzMpASMp-Wn6kcdUfGV8VCGLU?usp=sharing)
