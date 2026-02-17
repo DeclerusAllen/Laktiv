@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 # Laktiv
 Se yon app kap gen pou ede prepare manje nan bay bon jan resèt
-## Videyo app la
-### [vdeyo](https://drive.google.com/drive/folders/1cnbakFRDzMpASMp-Wn6kcdUfGV8VCGLU?usp=sharing)
+## Videyo a ak fichye APK
+### [Google Drive](https://drive.google.com/drive/folders/1cnbakFRDzMpASMp-Wn6kcdUfGV8VCGLU?usp=sharing)
