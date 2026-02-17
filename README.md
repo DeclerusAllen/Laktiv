@@ -17,11 +17,11 @@ Aplikasyon LAKResèt pèmèt itilizatè yo jwenn bon jan resèt ak bon jan enstr
 - Pèmèt itilizatè a ajoute yon resèt nan favori e kap tou disponib an lokal.
 
 **Otè ak Wòl:**
-| Non                        | Wòl                        |
-|---------------------------|----------------------------|
-| Allen DECLERUS            | Data layer                 |
-| Jean Rood Kerry LUCIEN    | UI/UX + Navigasyon         |
-| Leila JOAZILE             | UI/UX + Navigasyon         |
+ Non                         Wòl                       
+
+ Allen DECLERUS             Data layer                 
+ Jean Rood Kerry LUCIEN     UI/UX + Navigasyon         
+ Leila JOAZILE              UI/UX + Navigasyon         
 
 **Rezime teknik:**
 - Aplikasyon an gen 5 ekran ladan: ekran dinamik (Splash, Akèy, Detay, Favori) epi Apwopo ki se yon ekran statik.
@@ -34,12 +34,6 @@ Aplikasyon LAKResèt pèmèt itilizatè yo jwenn bon jan resèt ak bon jan enstr
   
 ## Kek package nou itilize
 ### http, shared_preferences, flutter_launcher_icons.
-
-
-
-
-
-
 
 ## Videyo a ak fichye APK
 ### [Google Drive](https://drive.google.com/drive/folders/1cnbakFRDzMpASMp-Wn6kcdUfGV8VCGLU?usp=sharing)
